@@ -1,0 +1,34 @@
+# Local .terraform directories
+**/.terraform/*
+.terraform/
+
+# .tfstate files (contain sensitive data)
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform plan output files
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files (used for local dev/test)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Lock file (may be regenerated)
+.terraform.lock.hcl
+
+# Provider binaries (very large, auto-downloaded)
+terraform-provider-*
+
+# Mac and system files
+.DS_Store
+Thumbs.db
