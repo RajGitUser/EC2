@@ -69,7 +69,7 @@ resource "aws_security_group_rule" "ssh_allow" {
   to_port           = 22
 }
 
-resource "aws_instance" "practice" {
+resource "aws_instance" "workstation" {
     ami  = local.aws_ami
     instance_type = "t3.micro"
     subnet_id = aws_subnet.public.id
